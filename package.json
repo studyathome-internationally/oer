@@ -1,0 +1,14 @@
+{
+  "name": "oer",
+  "description": "Open Educational Resources",
+  "version": "1.0.0",
+  "repository": "https://github.com/studyathome-internationally/rehabilitationstechnik.git",
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "Alija Sabic <sabic.alija@gmail.com"
+}
