@@ -49,4 +49,4 @@ jobs:
         with:
           algolia_application_id: ${{ secrets.APPLICATION_ID }}
           algolia_api_key: ${{ secrets.API_KEY }}
-          file: ./docs/.vuepress/config/algolia.json
+          file: ./docs/.vitepress/config/algolia.json
