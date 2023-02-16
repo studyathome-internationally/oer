@@ -1,11 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
+  markdown-it-abbr: ^1.0.4
   stylus: ^0.59.0
   vitepress: 1.0.0-alpha.46
   vue: ^3.2.47
 
 devDependencies:
+  markdown-it-abbr: 1.0.4
   stylus: 0.59.0
   vitepress: 1.0.0-alpha.46_stylus@0.59.0
   vue: 3.2.47
@@ -670,6 +672,10 @@ packages:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
     dependencies:
       sourcemap-codec: 1.4.8
+    dev: true
+
+  /markdown-it-abbr/1.0.4:
+    resolution: {integrity: sha512-ZeA4Z4SaBbYysZap5iZcxKmlPL6bYA8grqhzJIHB1ikn7njnzaP8uwbtuXc4YXD5LicI4/2Xmc0VwmSiFV04gg==}
     dev: true
 
   /minimatch/3.1.2:
