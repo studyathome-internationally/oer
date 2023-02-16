@@ -1,6 +1,6 @@
 <template>
   <li>
-    <a :href="url">
+    <a :href="url" target="_blank" rel="noreferrer">
       <article class="resource">
         <h1>{{ title }}</h1>
         <img :src="src" :alt="alt" />
