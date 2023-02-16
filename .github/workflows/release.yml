@@ -1,0 +1,69 @@
+name: Release
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 0 * * 0" # At 00:00 on Sunday (weekly)
+env:
+  BASE: /
+  USER: study
+  SERVER: studyathome.technikum-wien.at
+  DEST: /var/www/html/asterics-web-devwindows
+  SSH_OPTS: -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Code
+        uses: actions/checkout@v3
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7.27.0
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          cache: pnpm
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build
+        run: pnpm run build
+      - name: Upload Build Result
+        uses: actions/upload-artifact@v3
+        with:
+          name: oer
+          path: build
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    env:
+      PASS: ${{ secrets.USER_KEY }}
+    steps:
+      - name: Download Build Result
+        uses: actions/download-artifact@v3
+        with:
+          name: oer
+      - name: Check Prerelease
+        id: prerelease
+        run: echo "exists=$(sshpass -p ${PASS} ssh ${SSH_OPTS} ${USER}@${SERVER} "if [ -d ${DEST}/next ]; then echo 'true'; else echo 'false'; fi")" >> $GITHUB_OUTPUT
+      - name: Download Prerelease
+        if: ${{ steps.prerelease.outputs.exists }}
+        run: sshpass -p ${PASS} scp ${SSH_OPTS} -r ${USER}@${SERVER}:${DEST}/next next
+      # DANGER:
+      # - name: Delete Content from Server
+      #   run: sshpass -p ${PASS} ssh ${SSH_OPTS} ${USER}@${SERVER} "echo rm -rf ${DEST}/*"
+      - name: Upload Build to StudyATHome Server
+        run: sshpass -p ${PASS} scp ${SSH_OPTS} -r * ${USER}@${SERVER}:${DEST}/
+  # We don't know when the site will be deployed, we just wait a few seconds
+  # Better solutions can be found
+  delay:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Delay for 120 seconds
+        run: sleep 120s
+  algolia:
+    needs: [deploy, delay]
+    uses: ./.github/workflows/algolia.yml
+    with:
+      delete_index: true
+    secrets: inherit
