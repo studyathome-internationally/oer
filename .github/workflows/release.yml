@@ -46,7 +46,7 @@ jobs:
         id: prerelease
         run: echo "exists=$(sshpass -p ${PASS} ssh ${SSH_OPTS} ${USER}@${SERVER} "if [ -d ${DEST}/next ]; then echo 'true'; else echo 'false'; fi")" >> $GITHUB_OUTPUT
       - name: Download Prerelease
-        if: ${{ steps.prerelease.outputs.exists }}
+        if: ${{ steps.prerelease.outputs.exists == 'true' }}
         run: sshpass -p ${PASS} scp ${SSH_OPTS} -r ${USER}@${SERVER}:${DEST}/next next
       # DANGER:
       # - name: Delete Content from Server
