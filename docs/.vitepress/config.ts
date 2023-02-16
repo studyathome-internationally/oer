@@ -1,6 +1,8 @@
 import { defineConfig } from "vitepress";
+import base from "./config/base.js";
 
 export default defineConfig({
+  base,
   locales: {
     root: {
       label: "English",
