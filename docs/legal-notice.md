@@ -1,50 +1,53 @@
+<!-- prettier-ignore -->
+*[UAS]: University of Applied Sciences
+*[EMBA]: Executive Master of Business and Administration
+
 # Legal Notice
 
-Name and Address
+## Publisher and Editorial Responsibility
 
-```
-University of Applied Sciences
-123 Main Street
-Anytown, USA 12345
-```
 
-Contact Information
+**UAS Technikum Wien**  
+Mariahilfer Strasse 37-39  
+1060 Vienna
 
-```
-Email: info@universityofappliedsciences.edu
-Phone: +1 (555) 555-5555
-```
+T: +43 1 588 39-0  
+F: +43 1 588 39-49
 
-Legal Representative
 
-```
-John Doe
-University of Applied Sciences
-```
+Email: [info@technikum-wien.at](mailto:info@technikum-wien.at)
 
-Responsible for Content
+## Management
 
-```
-Jane Smith
-University of Applied Sciences
-jane.smith@universityofappliedsciences.edu
-```
+Gabriele Költringer, EMBA (Managing Director)
 
-## Purpose of Website
-This website provides open educational resources for students and faculty of the University of Applied Sciences.
+## Managing Comitee
 
-## Copyright and Trademark Information
-All content on this website is the property of the University of Applied Sciences and may not be used or reproduced without permission.
-All trademarks and logos used on this website are the property of their respective owners.
+* Dr. Ulrike Baumgartner-Gabitzer
+* Mag. Wilhelm Grosseibl
+* DI Dr. Kurt Hofstädter (vice chairman)
+* Dr. Kari Kapsch
+* DI Anton Plimon
+* Dr. Lothar Roitner (chairman)
+* Mag. Dr. Gerhard Riemer
 
-## Privacy Policy
-The University of Applied Sciences is committed to protecting the privacy of its users.
-Please refer to our Privacy Policy for more information.
+## Basic Objective
 
-## Terms and Conditions
-By using this website, you agree to abide by the Terms and Conditions of Use. Please refer to our Terms and Conditions for more information.
+Internet presence to promote and support activities of the organization.
+
+## Responsible for Content & Webmaster
+
+Project: [StudyATHome Internationally](https://studyathome.technikum-wien.at)  
+Email: [Martin Deinhofer, Project Lead](mailto:martin.deinhofer@technikum-wien.at)
 
 ## Disclaimer
-The University of Applied Sciences makes every effort to ensure the accuracy of the information provided on this website, but we cannot guarantee that all information is up-to-date or error-free. The University of Applied Sciences shall not be held liable for any direct or indirect damages arising from the use of this website.
 
-We hope you find this website useful and informative. If you have any questions or concerns, please don't hesitate to contact us.
+The UAS Technikum Wien makes every effort to ensure that the material contained on its website is current, complete and correct. Despite this, errors and mistakes cannot be completely ruled out. The UAS Technikum Wien does not accept liability for the relevance, accuracy or completeness of the information and material offered on its website. 
+
+Links to external websites have been chosen carefully. As they are outside the control of the UAS Technikum Wien, the UAS Technikum Wien accepts no responsibility for these sites.
+
+## Copyright
+
+Copyright and legal right of use for texts, graphics, design, und source code belong to the UAS Technikum Wien, so does the legal right for the photos, if not linked from external websites. 
+
+Issuing, usage and disclosure of information for not commercial reasons is enabled, as long as the content remains unchanged and the source is mentioned (Source: UAS Technikum Wien). The layout of the homepage, graphics and pictures used and the collection of individual contributions are protected by copyright.
