@@ -13,11 +13,6 @@ export default defineConfig({
         logo: "/img/fhtw.svg",
         outlineTitle: "Table of Contents",
         nav: nav("en"),
-        algolia: {
-          appId: "JI7BWPYEMW",
-          apiKey: "a5976af2be8c2ccbb60ba75f309ceb58",
-          indexName: "oer",
-        },
       },
     },
     de: {
@@ -29,12 +24,14 @@ export default defineConfig({
         logo: "/img/fhtw.svg",
         outlineTitle: "Inhaltsverzeichnis",
         nav: nav("de"),
-        algolia: {
-          appId: "JI7BWPYEMW",
-          apiKey: "a5976af2be8c2ccbb60ba75f309ceb58",
-          indexName: "oer",
-        },
       },
+    },
+  },
+  themeConfig: {
+    algolia: {
+      appId: "JI7BWPYEMW",
+      apiKey: "a5976af2be8c2ccbb60ba75f309ceb58",
+      indexName: "oer",
     },
   },
   // themeConfig: {
