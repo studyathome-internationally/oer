@@ -2,7 +2,6 @@
 
 Welcome to our website, where we bring together a diverse collection of open educational resources from various areas, all in one place.
 
-Our mission is to make high-quality educational materials accessible to learners and educators around the world, regardless of their location or financial resources.
 We believe that open educational resources have the power to transform the way we learn and teach, and we are committed to creating a community of shared knowledge and collaboration.
 
 Whether you are a student, teacher, or lifelong learner, we invite you to explore our website and discover the wealth of knowledge that awaits you.
