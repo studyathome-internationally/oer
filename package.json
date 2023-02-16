@@ -12,6 +12,7 @@
   },
   "author": "Alija Sabic <sabic.alija@gmail.com",
   "devDependencies": {
+    "markdown-it-abbr": "^1.0.4",
     "stylus": "^0.59.0",
     "vitepress": "1.0.0-alpha.46",
     "vue": "^3.2.47"
