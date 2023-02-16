@@ -1,48 +1,53 @@
+<!-- prettier-ignore -->
+*[FH]: Fachhochschule
+*[EMBA]: Executive Master of Business and Administration
+
 # Impressum
 
-Name und Adresse
+## Herausgeber und redaktionelle Verantwortung
 
-```
-Hochschule für angewandte Wissenschaften
-123 Main Street
-Anytown, USA 12345
-```
 
-Kontaktinformationen
+**FH Technikum Wien**  
+Mariahilfer Straße 37-39  
+1060 Wien
 
-```
-E-Mail: info@universityofappliedsciences.edu
-Telefon: +1 (555) 555-5555
-```
+T: +43 1 588 39-0  
+F: +43 1 588 39-49
 
-Rechtsvertreter/in
 
-```
-John Doe
-Hochschule für angewandte Wissenschaften
-```
+E-Mail: [info@technikum-wien.at](mailto:info@technikum-wien.at)
 
-Verantwortlich für den Inhalt
+## Geschäftsführung
 
-```
-Jane Smith
-Hochschule für Angewandte Wissenschaften
-jane.smith@universityofappliedsciences.edu
-```
+Gabriele Költringer, EMBA (Geschäftsführerin)
 
-## Zweck der Website
-Diese Website bietet offene Bildungsressourcen für Studierende und Lehrkräfte der University of Applied Sciences.
+## Geschäftsführendes Komitee
 
-## Informationen zu Copyright und Markenzeichen
-Alle Inhalte auf dieser Website sind Eigentum der University of Applied Sciences und dürfen nicht ohne Genehmigung verwendet oder vervielfältigt werden. Alle auf dieser Website verwendeten Marken und Logos sind Eigentum der jeweiligen Inhaber.
+* Dr. Ulrike Baumgartner-Gabitzer
+* Mag. Wilhelm Grosseibl
+* DI Dr. Kurt Hofstädter (stellvertretender Vorsitzender)
+* Dr. Kari Kapsch
+* DI Anton Plimon
+* Dr. Lothar Roitner (Vorsitzender)
+* Mag. Dr. Gerhard Riemer
 
-## Datenschutzrichtlinie
-Die University of Applied Sciences verpflichtet sich, die Privatsphäre ihrer Nutzer zu schützen. Weitere Informationen findest du in unserer Datenschutzrichtlinie.
+## Grundlegende Zielsetzung
 
-## Bedingungen und Konditionen
-Mit der Nutzung dieser Website erklärst du dich mit den Nutzungsbedingungen einverstanden. Weitere Informationen findest du in unseren Allgemeinen Geschäftsbedingungen.
+Internetpräsenz zur Förderung und Unterstützung der Aktivitäten der Organisation.
+
+## Verantwortlich für den Inhalt & Webmaster
+
+Projekt: [StudyATHome International](https://studyathome.technikum-wien.at)  
+E-Mail: [Martin Deinhofer, Projektleiter](mailto:martin.deinhofer@technikum-wien.at)
 
 ## Haftungsausschluss
-Die University of Applied Sciences bemüht sich um die Richtigkeit der auf dieser Website bereitgestellten Informationen, kann aber nicht garantieren, dass alle Informationen aktuell oder fehlerfrei sind. Die University of Applied Sciences haftet nicht für direkte oder indirekte Schäden, die durch die Nutzung dieser Website entstehen.
 
-Wir hoffen, dass du diese Website nützlich und informativ findest. Wenn du Fragen oder Bedenken hast, zögere bitte nicht, uns zu kontaktieren.
+Die Fachhochschule Technikum Wien ist bemüht, das Material auf ihrer Website aktuell, vollständig und richtig zu halten. Trotzdem können Fehler und Irrtümer nicht vollständig ausgeschlossen werden. Das FH Technikum Wien übernimmt keine Haftung für die Aktualität, Richtigkeit und Vollständigkeit der auf seiner Website angebotenen Informationen und Materialien. 
+
+Die Links zu externen Websites wurden sorgfältig ausgewählt. Da sie außerhalb der Kontrolle des FH Technikum Wien liegen, übernimmt das FH Technikum Wien keine Verantwortung für diese Seiten.
+
+## Urheberrecht
+
+Das Urheberrecht und die Nutzungsrechte für Texte, Grafiken, Design und Quellcode liegen bei der FH Technikum Wien, ebenso die Rechte an den Fotos, sofern sie nicht von externen Websites verlinkt sind. 
+
+Die Herausgabe, Nutzung und Weitergabe von Informationen zu nicht kommerziellen Zwecken ist erlaubt, solange der Inhalt unverändert bleibt und die Quelle angegeben wird (Quelle: FH Technikum Wien). Das Layout der Homepage, die verwendeten Grafiken und Bilder sowie die Sammlung der einzelnen Beiträge sind urheberrechtlich geschützt.
