@@ -1,5 +1,6 @@
 // .vitepress/theme/index.js
 import DefaultTheme from "vitepress/theme";
+import "./styles/index.styl";
 
 import Resources from "./components/Resources.vue";
 import Resource from "./components/Resource.vue";
