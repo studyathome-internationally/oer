@@ -2,7 +2,7 @@
 import { onBeforeMount, ref } from "vue";
 const start = 10;
 const offlineReady = ref(false);
-const needRefresh = ref(false);
+const needRefresh = ref(true);
 const counter = ref(start);
 
 const count = () => {
@@ -10,8 +10,7 @@ const count = () => {
   if (counter.value > 0) setTimeout(count, 1000);
   else updateServiceWorker?.();
 };
-
-setTimeout(count, 1000);
+if (needRefresh.value) setTimeout(count, 1000);
 
 let updateServiceWorker: (() => Promise<void>) | undefined;
 
@@ -20,6 +19,7 @@ const onOfflineReady = () => {
 };
 const onNeedRefresh = () => {
   needRefresh.value = true;
+  setTimeout(count, 1000);
 };
 const close = async () => {
   offlineReady.value = false;
@@ -51,9 +51,9 @@ onBeforeMount(async () => {
       <div id="pwa-control">
         <button v-if="needRefresh" type="button" class="pwa-refresh" @click="updateServiceWorker?.()">Reload</button>
         <button type="button" class="pwa-cancel" @click="close">Close</button>
-        <div id="pwa-reload-counter">{{ counter }}</div>
+        <div id="pwa-reload-counter" v-if="needRefresh">{{ counter }}</div>
       </div>
-      <div id="pwa-reload-count" :style="{ width: `${(counter / start) * 100}%` }"></div>
+      <div id="pwa-reload-count" v-if="needRefresh" :style="{ width: `${(counter / start) * 100}%` }"></div>
     </div>
   </template>
 </template>
