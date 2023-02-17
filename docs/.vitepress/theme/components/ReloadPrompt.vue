@@ -2,7 +2,7 @@
 import { onBeforeMount, ref } from "vue";
 const start = 10;
 const offlineReady = ref(false);
-const needRefresh = ref(true);
+const needRefresh = ref(false);
 const counter = ref(start);
 
 const count = () => {
