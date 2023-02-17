@@ -16,8 +16,11 @@ Egal, ob du Schüler/in, Lehrer/in oder lebenslang Lernender bist, wir laden dic
   </Resource>
 
   <Resource
+    class="coming-soon"
     title="Demnächst..."
     url="https://oer.studyathome.technikum-wien.at/"
-    src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png">
+    src="https://supercycles.de/wp-content/uploads/2013/05/placeholder.gif">
+    <!-- src="https://mvz-bietigheim.de/wp-content/uploads/2017/05/placeholder-image10.jpg" -->
+    <!-- src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" -->
   </Resource>
 </Resources>
