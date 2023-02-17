@@ -2,5 +2,6 @@
 node_modules/
 docs/.vitepress/cache
 .env
+docs/dev-dist/
 
 # Allow
