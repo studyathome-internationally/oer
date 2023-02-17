@@ -11,9 +11,6 @@
     "preview": "vitepress preview docs"
   },
   "author": "Alija Sabic <sabic.alija@gmail.com",
-  "peerDependencies": {
-    "vite-plugin-pwa": "^0.14.0"
-  },
   "devDependencies": {
     "@vite-pwa/vitepress": "^0.0.5",
     "vite": "^4.0.0",
