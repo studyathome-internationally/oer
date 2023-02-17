@@ -1,44 +1,61 @@
 import { defineConfig, type HeadConfig } from "vitepress";
+import { withPwa } from "@vite-pwa/vitepress";
 import base from "./config/base.js";
 
 import MdItAbbr from "markdown-it-abbr";
 
-export default defineConfig({
-  base,
-  head: head(),
-  markdown: markdown(),
-  locales: {
-    root: {
-      label: "English",
-      lang: "en-US",
-      title: "Open Educational Resources",
-      description: "Open Educational Resources by UAS Technikum Wien",
-      themeConfig: {
-        logo: "/img/fhtw.svg",
-        outlineTitle: "Table of Contents",
-        nav: nav("en"),
+export default withPwa(
+  defineConfig({
+    base,
+    head: head(),
+    markdown: markdown(),
+    locales: {
+      root: {
+        label: "English",
+        lang: "en-US",
+        title: "Open Educational Resources",
+        description: "Open Educational Resources by UAS Technikum Wien",
+        themeConfig: {
+          logo: "/img/fhtw.svg",
+          outlineTitle: "Table of Contents",
+          nav: nav("en"),
+        },
+      },
+      de: {
+        label: "Deutsch",
+        lang: "de-AT",
+        title: "Open Educational Resources",
+        description: "Open Educational Resources der FH Technikum Wien",
+        themeConfig: {
+          logo: "/img/fhtw.svg",
+          outlineTitle: "Inhaltsverzeichnis",
+          nav: nav("de"),
+        },
       },
     },
-    de: {
-      label: "Deutsch",
-      lang: "de-AT",
-      title: "Open Educational Resources",
-      description: "Open Educational Resources der FH Technikum Wien",
-      themeConfig: {
-        logo: "/img/fhtw.svg",
-        outlineTitle: "Inhaltsverzeichnis",
-        nav: nav("de"),
+    themeConfig: {
+      algolia: {
+        appId: "JI7BWPYEMW",
+        apiKey: "a5976af2be8c2ccbb60ba75f309ceb58",
+        indexName: "oer",
       },
     },
-  },
-  themeConfig: {
-    algolia: {
-      appId: "JI7BWPYEMW",
-      apiKey: "a5976af2be8c2ccbb60ba75f309ceb58",
-      indexName: "oer",
+    pwa: {
+      // https://github.com/vite-pwa/vitepress/blob/main/examples/pwa-prompt/.vitepress/config.ts#L35
+      mode: "development",
+      base,
+      scope: base,
+      includeAssets: ["favicon.svg"],
+      workbox: {
+        globPatterns: ["**/*.{css,js,html,svg,png,ico,txt,woff2}"],
+      },
+      devOptions: {
+        enabled: true,
+        navigateFallback: "/",
+      },
     },
-  },
-});
+  })
+);
 
 function head(): HeadConfig[] {
   return [
