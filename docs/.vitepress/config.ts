@@ -38,6 +38,56 @@ export default withPwa(
         appId: "JI7BWPYEMW",
         apiKey: "a5976af2be8c2ccbb60ba75f309ceb58",
         indexName: "oer",
+        locales: {
+          root: {
+            placeholder: "Search Open Educational Resources",
+          },
+          de: {
+            placeholder: "Suche in Open Educational Resources",
+            translations: {
+              button: {
+                buttonText: "Suche",
+                buttonAriaLabel: "Suche",
+              },
+              modal: {
+                searchBox: {
+                  resetButtonTitle: "Lösche die Eingabe",
+                  resetButtonAriaLabel: "Lösche die Eingabe",
+                  cancelButtonText: "Abbrechen",
+                  cancelButtonAriaLabel: "Abbrechen",
+                },
+                startScreen: {
+                  recentSearchesTitle: "Suchverlauf",
+                  noRecentSearchesText: "Kein Suchverlauf",
+                  saveRecentSearchButtonTitle: "Im Suchverlauf speichern",
+                  removeRecentSearchButtonTitle: "Aus Suchverlauf entfernen",
+                  favoriteSearchesTitle: "Favoriten",
+                  removeFavoriteSearchButtonTitle: "Aus Favoriten entfernen",
+                },
+                errorScreen: {
+                  titleText: "Ergebnisse konnten nicht abgerufen werden",
+                  helpText: "Überprüfen Sie Ihre Netzwerkverbindung",
+                },
+                footer: {
+                  selectText: "Auswählen",
+                  selectKeyAriaLabel: "Auswählen",
+                  navigateText: "Wechseln",
+                  navigateUpKeyAriaLabel: "Nach oben wechseln",
+                  navigateDownKeyAriaLabel: "Nach unten wechseln",
+                  closeText: "Schließen",
+                  closeKeyAriaLabel: "Schließen",
+                  searchByText: "Suchanbieter",
+                },
+                noResultsScreen: {
+                  noResultsText: "Keine Ergebnisse für:",
+                  suggestedQueryText: "Versuchen Sie eine Suche nach",
+                  reportMissingResultsText: "Solten Ergebnisse angezeigt werden?",
+                  reportMissingResultsLinkText: "Feedback",
+                },
+              },
+            },
+          },
+        },
       },
     },
     pwa: {
