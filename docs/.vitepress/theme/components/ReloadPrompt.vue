@@ -101,4 +101,10 @@ onBeforeMount(async () => {
     height 100%
     background linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%)
     z-index 1
+
+
+.dark
+  .pwa-toast
+    background var(--vp-c-bg)
+    box-shadow 3px 4px 5px 0 var(--vp-c-bg-elv-up)
 </style>
