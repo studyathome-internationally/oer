@@ -38,6 +38,7 @@ export default withPwa(
             pattern: "https://github.com/studyathome-internationally/oer/edit/master/docs/:path",
             text: "Diese Seite auf GitHub bearbeiten",
           },
+          darkModeSwitchLabel: "Darstellung",
         },
       },
     },
