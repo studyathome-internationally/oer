@@ -19,6 +19,10 @@ export default withPwa(
           logo: "/img/fhtw.svg",
           outlineTitle: "Table of Contents",
           nav: nav("en"),
+          editLink: {
+            pattern: "https://github.com/studyathome-internationally/oer/edit/master/docs/:path",
+            text: "Edit this page on GitHub",
+          },
         },
       },
       de: {
@@ -30,6 +34,10 @@ export default withPwa(
           logo: "/img/fhtw.svg",
           outlineTitle: "Inhaltsverzeichnis",
           nav: nav("de"),
+          editLink: {
+            pattern: "https://github.com/studyathome-internationally/oer/edit/master/docs/:path",
+            text: "Diese Seite auf GitHub bearbeiten",
+          },
         },
       },
     },
