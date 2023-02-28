@@ -9,6 +9,7 @@ export default withPwa(
     base,
     head: head(),
     markdown: markdown(),
+    lastUpdated: true,
     locales: {
       root: {
         label: "English",
@@ -17,8 +18,8 @@ export default withPwa(
         description: "Open Educational Resources by UAS Technikum Wien",
         themeConfig: {
           logo: "/img/fhtw.svg",
-          outlineTitle: "Table of Contents",
           nav: nav("en"),
+          outlineTitle: "Table of Contents",
           editLink: {
             pattern: "https://github.com/studyathome-internationally/oer/edit/master/docs/:path",
             text: "Edit this page on GitHub",
@@ -32,9 +33,16 @@ export default withPwa(
         description: "Open Educational Resources der FH Technikum Wien",
         themeConfig: {
           logo: "/img/fhtw.svg",
-          outlineTitle: "Inhaltsverzeichnis",
           nav: nav("de"),
+          outlineTitle: "Inhaltsverzeichnis",
           darkModeSwitchLabel: "Darstellung",
+          lastUpdatedText: "Letzte Aktualisierung",
+          sidebarMenuLabel: "Menü",
+          returnToTopLabel: "Zurück zum Anfang",
+          docFooter: {
+            prev: "Vorherige Seite",
+            next: "Nächste Seite",
+          },
           editLink: {
             pattern: "https://github.com/studyathome-internationally/oer/edit/master/docs/:path",
             text: "Diese Seite auf GitHub bearbeiten",
