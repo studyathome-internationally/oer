@@ -1,0 +1,31 @@
+.vp-doc .header-wrapper
+  position relative
+
+  .header-anchor
+    line-height 32px
+    position absolute
+    top 0
+
+  h1 + .header-anchor
+    line-height 40px
+    font-size 32px
+
+  h2 + .header-anchor
+    padding-top calc(24px+1px)
+    line-height 32px
+    font-size 24px
+
+  h3 + .header-anchor
+    line-height 28px
+    font-size 20px
+
+.vp-doc .header-anchor:hover,
+.vp-doc .header-anchor:focus,
+.vp-doc h1:hover + .header-anchor,
+.vp-doc h2:hover + .header-anchor,
+.vp-doc h3:hover + .header-anchor,
+.vp-doc h4:hover + .header-anchor,
+.vp-doc h5:hover + .header-anchor,
+.vp-doc h6:hover + .header-anchor {
+  opacity: 1;
+}
