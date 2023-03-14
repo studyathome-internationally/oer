@@ -4,8 +4,6 @@ import base from "./config/base.js";
 
 import MdItAbbr from "markdown-it-abbr";
 
-import MdItAnchor from "markdown-it-anchor";
-
 export default withPwa(
   defineConfig({
     base,
@@ -145,14 +143,6 @@ function markdown() {
   return {
     config: (md) => {
       md.use(MdItAbbr);
-    },
-    anchor: {
-      permalink: MdItAnchor.permalink.linkAfterHeader({
-        style: "aria-label",
-        assistiveText: (title) => `Permalink to "${title}"`,
-        visuallyHiddenClass: "visually-hidden",
-        wrapper: ['<div class="header-wrapper">', "</div>"],
-      }),
     },
   };
 }
