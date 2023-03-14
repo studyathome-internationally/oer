@@ -11,6 +11,7 @@ Egal, ob du Schüler/in, Lehrer/in oder lebenslang Lernender bist, wir laden dic
 <Resources>
   <Resource
     title="Rehabilitationstechnik"
+    alt="Beine einer Person mit einem Exoskelett auf einem Laufband"
     url="https://rehatec.studyathome.technikum-wien.at/de/"
     src="https://media-hp.technikum-wien.at/media/20221115091102/Titelbild_MGR-1.jpg">
   </Resource>
@@ -18,8 +19,10 @@ Egal, ob du Schüler/in, Lehrer/in oder lebenslang Lernender bist, wir laden dic
 <Resource
     class="coming-soon"
     title="Demnächst..."
+    alt="Platzhalter mit Graustufen"
     url="https://oer.studyathome.technikum-wien.at/"
     src="https://supercycles.de/wp-content/uploads/2013/05/placeholder.gif">
+
 <!-- src="https://mvz-bietigheim.de/wp-content/uploads/2017/05/placeholder-image10.jpg" -->
 <!-- src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" -->
 </Resource>

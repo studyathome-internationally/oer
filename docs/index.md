@@ -11,6 +11,7 @@ Whether you are a student, teacher, or lifelong learner, we invite you to explor
 <Resources>
   <Resource
     title="Rehabilitation Technology"
+    alt="Legs of a person with an exoskeleton on a treadmill"
     url="https://rehatec.studyathome.technikum-wien.at/"
     src="https://media-hp.technikum-wien.at/media/20221115091102/Titelbild_MGR-1.jpg">
   </Resource>
@@ -18,8 +19,10 @@ Whether you are a student, teacher, or lifelong learner, we invite you to explor
 <Resource
     class="coming-soon"
     title="Coming soon..."
+    alt="Gray-scaled placeholder"
     url="https://oer.studyathome.technikum-wien.at/"
     src="https://supercycles.de/wp-content/uploads/2013/05/placeholder.gif">
+
 <!-- src="https://mvz-bietigheim.de/wp-content/uploads/2017/05/placeholder-image10.jpg" -->
 <!-- src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" -->
 </Resource>
