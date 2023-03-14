@@ -7,7 +7,7 @@ specifiers:
   stylus: ^0.59.0
   vite: ^4.0.0
   vite-plugin-pwa: ^0.14.4
-  vitepress: 1.0.0-alpha.56
+  vitepress: 1.0.0-alpha.58
   vue: ^3.2.47
   workbox-window: ^6.5.4
 
@@ -18,7 +18,7 @@ devDependencies:
   stylus: 0.59.0
   vite: 4.1.2_stylus@0.59.0
   vite-plugin-pwa: 0.14.4_hqils2veansstxzaefh32znarq
-  vitepress: 1.0.0-alpha.56_stylus@0.59.0
+  vitepress: 1.0.0-alpha.58_stylus@0.59.0
   vue: 3.2.47
   workbox-window: 6.5.4
 
@@ -3297,8 +3297,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress/1.0.0-alpha.56_stylus@0.59.0:
-    resolution: {integrity: sha512-FNoanHwmgWn4xZZcc8D34VKWcEs0F7e39xiVUahI7VzzI4VeiB+R/euYtPIUcTxIC2pRDhclw7/DO0JFYSGIpw==}
+  /vitepress/1.0.0-alpha.58_stylus@0.59.0:
+    resolution: {integrity: sha512-aENSAiE2uKMoQPwBTELY8Nig5qSWrmAl+MgsO3l/TE8At6kXii+2rseEId/bVfT700JeucYdqtCgWxu+LwpYIw==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.3.3
